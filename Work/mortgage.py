@@ -25,7 +25,7 @@ while principal > 0:
         total_paid -= principal
         principal -= principal
     
-    print(month, total_paid, principal)
+    print(f'{month}, \t{total_paid:0.2f}, \t{principal:0.2f}')
 
-print('Total paid', total_paid)
-print('Months', month)
+print(f'Total paid {total_paid}')
+print(f'Months {month}')
